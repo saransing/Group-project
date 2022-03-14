@@ -6,30 +6,32 @@
 
 .footer-container {
     position: absolute;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     background-color: #212329;
     bottom: 0;
     width: 100%;
+
 }
 
 .footer {
-    width: 80%;
-    height: 20vh;
+    width: 70%;
+    height: 15vh;
     background-color: #212329;
     color: #fff;
     display: block;
     margin: 0 auto;
+    padding-top: 5px;
 }
 
 .footer-heading-AboutUs {
     position: absolute;
     left: 100px;
-    top: 50px;
+    top: 20px;
 }
 
 .footer-heading-socialmedia {
     position: absolute;
-    top: 50px;
+    top: 20px;
     right: 50%;
 }
 
@@ -46,9 +48,9 @@ p1 {
 
 .footer-email-form {
     position: absolute;
-    top: 50px;
+    top: 20px;
     right: 100px;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 li {
     list-style-type: none;
