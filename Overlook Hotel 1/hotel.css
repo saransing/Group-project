@@ -78,7 +78,6 @@ img {
     font-family: inherit; 
     margin: 0; 
   }
-  /* Add a red background color to navbar links on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: red;
   }
