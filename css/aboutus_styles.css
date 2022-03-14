@@ -6,6 +6,9 @@ body {
 
 img:hover {opacity: 0.7;}
 
+.wrapper{
+    margin-top: 5%;
+}
 
 .aboutUsRightContainer{ 
     height: auto;
