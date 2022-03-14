@@ -1,3 +1,4 @@
+/* Top navigation bar by Anushri */
 body{
  background-color:rgb(240, 234, 234);
   ;
@@ -12,7 +13,7 @@ body{
 
     height: 120px;
     width: 100%;
-    z-index: 1;
+  
     background-color: black;
     overflow: hidden;
     
@@ -82,7 +83,7 @@ body{
     background-color: red;
   }
   
-  /* Dropdown content (hidden by default) */
+  /* Dropdown content*/
   .dropdown-content {
     display: none;
     position: absolute;
@@ -102,12 +103,12 @@ body{
     text-align: left;
   }
   
-  /* Add a grey background color to dropdown links on hover */
+
   .dropdown-content a:hover {
     background-color: #ddd;
   }
   
-  /* Show the dropdown menu on hover */
+  
   .dropdown:hover .dropdown-content {
     display: block;
   }
