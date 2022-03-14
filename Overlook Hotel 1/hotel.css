@@ -1,0 +1,140 @@
+body{
+ background-color:rgb(240, 234, 234);
+  ;
+}
+img {
+    float: left;
+    width:   350px ;
+    height: 120px;
+}
+
+.topnav {
+
+    height: 120px;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    overflow: hidden;
+    
+}
+.topnav a{
+    padding: 16px 6px 8px 6px ;
+    font-size: 25px;
+    color:white;
+    float: left;
+}
+
+.links {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.topnav a:active{
+    color:aquamarine;
+    background-color: navy;
+}
+
+.main {
+    margin-top: 160px;
+}
+.one{
+    margin-right: 20px;
+}
+.zero{
+    margin-right: 20px;
+}
+.two{
+    margin-right: 50px;
+    font-size: 16px;
+}
+.three{
+    margin-right: 20px;
+}
+.four{
+    margin-right: 20px;
+}
+.topnav a:link{
+    text-decoration: none;
+
+}
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  /* Add a red background color to navbar links on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 123px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Facilities */
+  .clearfix{
+    clear:both;
+    position:fixed; top: 140px;left: 700px;
+    font-size: xx-large;
+  }
+
+  .Facilities{
+    float:right;
+    height: 300px;
+    margin-right: 150px;
+  }
+
+  /* Creating box around text for Facilities */
+  .box{
+box-shadow:0 4px 8px 0;
+width:50%;
+margin-bottom: 16px;
+height: 200px;
+padding: 20px;
+border-radius: 10%;
+float: left;
+margin-left: 150px;
+font-size: x-large;
+  }
