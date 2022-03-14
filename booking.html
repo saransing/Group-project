@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>About us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<br>
+
+
+
+    <div class="aboutUsRightContainer">
+        <h1>Check the available rooms</h1>
+            <p>Please select number of guests, arrival and departure dates.</p>
+
+            <form action="/action_page.php">
+            <label for="guest_list">Number of guests:</label>
+            <select name="guest_list" id="guest_list">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4+">4+</option>
+            </select>
+        
+            <label for="start">Arrival date:</label>
+
+            <input type="date" id="start" name="trip-start" value="2022-03-14" min="2022-01-01" max="2022-12-31">
+          
+            <label for="end">Departure date:</label>
+
+            <input type="date" id="end" name="trip-start" value="2022-03-15" min="2022-01-01" max="2022-12-31">
+
+
+            <input type="submit" value="Submit">
+            </form>
+            </p>
+
+    </div>        
+        
+     
+
+    <div class="heading">
+    <br>
+    <h2> Rooms that match your selection </h2>
+    <br>
+
+    <div class="bookingrooms">
+        <h2>Single bedroom apartment</h2>
+        <p>Includes: breakfast, access to swimming pool and gym</p>
+        <p>placeholder</p>
+        <p>placeholder</p>
+        <img class="oldPhoto" src="images/singlepersonroom.jpg" alt="logo" title="One bedroom room" width="300px" class="centered"/>
+    </div>    
+    
+    <div class="bookingrooms">
+        <h2>Two bedroom apartment</h2>
+        <p>placeholder</p>
+        <p>placeholder</p>
+        <img src="images/Untitled.jpg" alt="logo" title="Two bedroom room" width="100px" class="centered"/>
+    </div>   
+
+
+    </div>  
+
+</body>
+
+</html>
