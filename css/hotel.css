@@ -13,7 +13,6 @@ body{
 
     height: 120px;
     width: 100%;
-  
     background-color: black;
     overflow: hidden;
     
@@ -138,7 +137,7 @@ border-radius: 10%;
 float: left;
 margin-left: 150px;
 font-size: x-large;
-overflow: scroll;
+overflow: hidden;
   }
 .box1{
   box-shadow:0 4px 8px 0;
@@ -150,5 +149,5 @@ border-radius: 10%;
 float: left;
 margin-left: 150px;
 font-size: x-large;
-overflow: scroll;
+overflow: hidden;
 }  
