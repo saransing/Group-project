@@ -11,17 +11,18 @@ img {
 }
 img:hover {opacity: 0.7;}
 
-
+.wrapper{
+    margin-top: 60px;
+}
 
 .middleContainer{
-    width: 14.5%;
+    width: 11.5%;
     height: 410px;
     background-color:white;
     margin-left:90px;
     margin-top:5px;
     border-radius: 3%;
     float: left;
-    text-align: left;
     font-weight: lighter;
     font-family: Arial Narrow, Arial, sans-serif;
     font-size: 15px;
@@ -33,10 +34,10 @@ img:hover {opacity: 0.7;}
 
 
 .rightContainer{
-    width: 14.5%;
+    width: 11.5%;
     height: 410px;
     background-color: white;
-    margin-left:2px;
+    margin-left:120px;
     margin-top:5px;
     border-radius: 3%;
     float: left;
@@ -49,10 +50,10 @@ img:hover {opacity: 0.7;}
 } 
 
 .rightContainer2{
-    width: 14.5%;
+    width: 11.5%;
     height: 410px;
     background-color: white;
-    margin-left:2px;
+    margin-left:120px;
     margin-top:5px;
     border-radius: 3%;
     float: left;
@@ -94,39 +95,4 @@ img:hover {opacity: 0.7;}
 }
 
 
-.idcard{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        width: 15%;
-        margin-bottom: 16px;
-
-        
-        padding: 20px;
-        border-radius: 10%;
-        text-align: center;
-        
-        float: left;
-
-    
-}
-
-.bookingrooms{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 50%;
-    margin-bottom: 16px;
-
-    height: 100%;
-    padding: 20px;
-    border-radius: 10%;
-    text-align: right;
-    clear: both;
-    
-    float: left;
-
-
-}
-.Centered
-{
-    display: inline-block;
-    vertical-align: middle;
-}
 
