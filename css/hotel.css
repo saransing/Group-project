@@ -2,7 +2,7 @@ body{
  background-color:rgb(240, 234, 234);
   ;
 }
-img {
+.image1 {
     float: left;
     width:   350px ;
     height: 120px;
