@@ -13,6 +13,7 @@ body{
 
     height: 120px;
     width: 100%;
+  
     background-color: black;
     overflow: hidden;
     
@@ -124,6 +125,7 @@ body{
     height: 300px;
     width:350px;
     margin-right: 150px;
+    margin-bottom: 25px;
   }
 
   /* Creating box around text for Facilities */
@@ -131,23 +133,23 @@ body{
 box-shadow:0 4px 8px 0;
 width:50%;
 margin-bottom: 16px;
-height: 200px;
+height: auto;
 padding: 20px;
 border-radius: 10%;
 float: left;
 margin-left: 150px;
 font-size: x-large;
-overflow: hidden;
+overflow: auto;
   }
 .box1{
   box-shadow:0 4px 8px 0;
 width:50%;
 margin-bottom: 16px;
-height: 270px;
+height: auto;
 padding: 20px;
 border-radius: 10%;
 float: left;
 margin-left: 150px;
 font-size: x-large;
-overflow: hidden;
+overflow: auto;
 }  
