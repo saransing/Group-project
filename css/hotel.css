@@ -63,7 +63,7 @@ body{
 .dropdown {
     float: left;
     overflow: hidden;
-
+    height: 63px;
   }
   
   /* Dropdown button */
