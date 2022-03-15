@@ -6,7 +6,7 @@ body {
 
 
 img {
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 5px;
     float: left;
 }
@@ -17,16 +17,22 @@ img:hover {opacity: 0.7;}
 }
 
 .mainContainer{
-margin-left: 9%;
-
+margin-left: 5%;
 }
+
+.imgmain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 
 
 .middleContainer{
-    width: 11.5%;
+    width: 15%;
     height: 400px;
     background-color:white;
-    margin-left:12%;
+    margin-left:6%;
     margin-top:5px;
     border-radius: 3%;
     float: left;
@@ -35,13 +41,14 @@ margin-left: 9%;
     font-size: 15px;
     color:#596aa7;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-}
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: auto;
 
+}
 
 
 .rightContainer{
-    width: 11.5%;
+    width: 15%;
     height: 400px;
     background-color: white;
     margin-left:6px;
@@ -53,15 +60,17 @@ margin-left: 9%;
     font-family: Arial Narrow, Arial, sans-serif;
     font-size: 15px;
     color:#596aa7;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: auto;  
 } 
 
 .rightContainer2{
-    width: 11.5%;
+    width: 15%;
     height: 400px;
     background-color: white;
     margin-left:6px;
     margin-top:5px;
+    margin-bottom: 20px;
     border-radius: 3%;
     float: left;
     text-align: center;
@@ -70,36 +79,9 @@ margin-left: 9%;
     font-size: 15px;
     color:#596aa7;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    overflow: auto;
+    clear: right; 
 } 
-
-/* test */
-.aboutUsRightContainer{ 
-    height: auto;
-    width: 70%;
-    margin-left:2px;
-    margin-top:5px;
-    float: left;
-    font-weight: lighter;
-    font-family: Arial Narrow, Arial, sans-serif;
-    font-size: 15px;
-    color:#596aa7;
-} 
-
-.oldPhoto{
-    margin-left:12px;
-    margin-top:5px;
-    float: left;
-    border-radius: 10%;
-} 
-
-
-.heading{
-        font-weight: lighter;
-        font-family: Arial Narrow, Arial, sans-serif;
-        color:#596aa7;
-        clear: both;
-        float: center;
-}
 
 
 

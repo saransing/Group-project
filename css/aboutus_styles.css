@@ -11,21 +11,33 @@ img:hover {opacity: 0.7;}
 .wrapper{
     margin-top: 5%;
 }
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
 
-.aboutUsRightContainer{ 
+.aboutUsContainer{ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-right: 10px;
     height: auto;
-    width: 70%;
-    margin-left:2px;
-    margin-top:5px;
+    width: 80%;
+    text-align: justify;
     float: left;
     font-weight: lighter;
     font-family: Arial Narrow, Arial, sans-serif;
     font-size: 15px;
     color:#596aa7;
+    clear: right;
+    overflow: auto;
 } 
 
 .oldPhoto{
-    margin-left:12px;
+    margin-left:5px;
     margin-top:5px;
     float: left;
     border-radius: 10%;
@@ -37,13 +49,14 @@ img:hover {opacity: 0.7;}
         font-family: Arial Narrow, Arial, sans-serif;
         color:#596aa7;
         clear: both;
-        float: center;
+        text-align: center;
+       
 }
 
 
 .idcard{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        width: 15%;
+        width: 25%;
         margin-bottom: 16px;
         padding: 20px;
         border-radius: 10%;
@@ -51,10 +64,6 @@ img:hover {opacity: 0.7;}
         float: left;
 }
 
-
-.centered{
-    border-radius: 10%; 
-}
 
 .ContactUs{
     font-weight: lighter;

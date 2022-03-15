@@ -5,17 +5,37 @@
     <meta charset="utf-8">
     <title>About us</title>
     <link rel="stylesheet" href="css/booking_styles.css">
+    <link rel="stylesheet" href="css/hotel.css" type="text/css" > <!--header-->
+    <link rel="stylesheet" href="css/footer_styles.css" />  <!--footer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/> <!--footer-->
 </head>
 
 <body>
+    <div class="topnav">
+        <img class="image1" src="images/final.jpeg"/>
+        <div class="links">
+        <a href = "index.html" class="zero">Home</a>
+        <a href="aboutUs.html" class="one">About us</a>
 
-<br>
+        <div class="dropdown">
+            <button class="dropbtn" class="two">Facilities </button>
+            <div class="dropdown-content">
+              <a href="cafe.html">Cafe</a>
+              <a href="gym.html">Gym</a>
+              <a href="pool.html">Pool</a>
+            </div>
+          </div>
+        <a href="booking.html" class="three">Room Availability</a>
+        </div>
+    </div>
 
 
 
-    <div class="aboutUsRightContainer">
-        <h1>Check the available rooms:</h1>
-            <p>Please select number of guests, arrival and departure dates......</p>
+
+    <div class="bookingContainer">
+        <h2>Check the available rooms:</h2>
+        <br>
+            <p>Please select number of guests, arrival and departure dates:</p>
 
             <form action="/action_page.php">
             <label for="guest_list">Number of guests:</label>
@@ -34,37 +54,106 @@
 
             <input type="date" id="end" name="trip-start" value="2022-03-15" min="2022-01-01" max="2022-12-31">
 
-
-            <input type="submit" value="Submit">
+            <br>
+            <br>
+            <input type="submit" value="Search for open bookings">
+            
             </form>
             </p>
+            <br>
 
     </div>        
         
      
 
-    <div class="heading">
+    <div class="heading bookingContainer">
     <br>
-    <h2> Rooms that match your selection </h2>
+    <h2> Available rooms that match your selection: </h2>
     <br>
 
     <div class="bookingrooms">
-        <h2>Single bedroom apartment</h2>
-        <p>Includes: breakfast, access to swimming pool and gym</p>
-        <p>placeholder</p>
-        <p>placeholder</p>
-        <img class="oldPhoto" src="images/singlepersonroom.jpg" alt="logo" title="One bedroom room" width="300px" class="centered"/>
+        <table>
+        <tr>
+        <td>
+            <img class="oldPhoto" src="images/singlepersonroom.jpg" alt="logo" title="One bedroom room" width="300px"/> 
+        </td>
+        <td>
+            <h2>Single bedroom apartment</h2>
+            <p>Includes: breakfast, access to swimming pool and gym</p>
+            <p>The apartment is fully furnitured</p>
+            <p>Starting from 169$/day</p>
+        </td>
+        </tr>
+        </table>
     </div>    
     
     <div class="bookingrooms">
-        <h2>Two bedroom apartment</h2>
-        <p>placeholder</p>
-        <p>placeholder</p>
-        <img src="images/Untitled.jpg" alt="logo" title="Two bedroom room" width="100px" class="centered"/>
+        <table>
+        <tr>
+        <td>
+        <img class="oldPhoto" src="images/two_bedroom.jpg" alt="logo" title="Two bedroom room" width="300px"/>
+        </td>
+        <td>
+            <h2>Two bedroom apartment</h2>
+            <p>Includes: breakfast, access to swimming pool and gym</p>
+            <p>The apartment is fully furnitured</p>
+            <p>Starting from 249$/day</p>
+        </td>
+        </tr>
+        </table>
     </div>   
+    </div>
+    
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-heading-AboutUs">
+                <h2>About us</h2>
+                <ul>
+                    <li><a href="aboutUs.html">Blog</a></li>
+                    <li><a href="aboutUs.html">Guests</a></li>
+                    <li><a href="aboutUs.html">Meet Our Staff</a></li>
+                    <li><a href="aboutUs.html">About Hotel</a></li>
+                </ul>
+            </div>
 
-
-    </div>  
+            <div class="footer-heading-socialmedia">
+                <h2 class="foot_right">Social Media</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://www.instagram.com/"
+                            class="fa fa-instagram"
+                            >&ensp;Instagram</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" class="fa fa-facebook"
+                            >&ensp;Faceebook</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://dk.linkedin.com/" class="fa fa-linkedin"
+                            >&ensp;LinkedIn</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-email-form">
+                <h2>Join our newsletter</h2>
+                <input
+                    type="email"
+                    placeholder="Enter your email adress"
+                    id="footer-email"
+                />
+                <input
+                    type="submit"
+                    value="Sign Up"
+                    id="footer-email-btn"
+                />
+            </div>
+            <p1>All rights reserved ® OverlookHotel.com</p1>
+        </div>
+    </div>
 
 </body>
 
