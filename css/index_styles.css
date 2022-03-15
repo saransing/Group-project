@@ -1,8 +1,8 @@
 /**Saran**/
 
 body {
-    background-color:rgb(240, 234, 234);
-     }
+    background-color: rgb(240, 234, 234);
+}
 
 
 img {
@@ -10,36 +10,39 @@ img {
     padding: 5px;
     float: left;
 }
-img:hover {opacity: 0.7;}
 
-.wrapper{
+img:hover {
+    opacity: 0.7;
+}
+
+.wrapper {
     margin-top: 60px;
 }
 
-.mainContainer{
-margin-left: 5%;
+.mainContainer {
+    margin-left: 5%;
 }
 
 .imgmain {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 
 
-.middleContainer{
+.middleContainer {
     width: 15%;
     height: 400px;
-    background-color:white;
-    margin-left:6%;
-    margin-top:5px;
+    background-color: white;
+    margin-left: 6%;
+    margin-top: 5px;
     border-radius: 3%;
     float: left;
     font-weight: lighter;
     font-family: Arial Narrow, Arial, sans-serif;
     font-size: 15px;
-    color:#596aa7;
+    color: #596aa7;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     overflow: auto;
@@ -47,29 +50,29 @@ margin-left: 5%;
 }
 
 
-.rightContainer{
+.rightContainer {
     width: 15%;
     height: 400px;
     background-color: white;
-    margin-left:6px;
-    margin-top:5px;
+    margin-left: 6px;
+    margin-top: 5px;
     border-radius: 3%;
     float: left;
     text-align: center;
     font-weight: lighter;
     font-family: Arial Narrow, Arial, sans-serif;
     font-size: 15px;
-    color:#596aa7;
+    color: #596aa7;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    overflow: auto;  
-} 
+    overflow: auto;
+}
 
-.rightContainer2{
+.rightContainer2 {
     width: 15%;
     height: 400px;
     background-color: white;
-    margin-left:6px;
-    margin-top:5px;
+    margin-left: 6px;
+    margin-top: 5px;
     margin-bottom: 20px;
     border-radius: 3%;
     float: left;
@@ -77,11 +80,8 @@ margin-left: 5%;
     font-weight: lighter;
     font-family: Arial Narrow, Arial, sans-serif;
     font-size: 15px;
-    color:#596aa7;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    color: #596aa7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     overflow: auto;
-    clear: right; 
-} 
-
-
-
+    clear: right;
+}
